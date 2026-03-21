@@ -1,0 +1,44 @@
+{
+  "$schema": "https://www.schemastore.org/package",
+  "name": "@skaldapp/milkdown-nodes",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [
+    "milkdown",
+    "nodes"
+  ],
+  "homepage": "https://github.com/skaldapp/milkdown-nodes#readme",
+  "bugs": {
+    "url": "https://github.com/skaldapp/milkdown-nodes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skaldapp/milkdown-nodes.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "Jerry Bruwes <jbruwes@gmail.com> (https://jbruwes.github.io)",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc && tsc-alias",
+    "lint": "eslint ."
+  },
+  "prettier": "@skaldapp/configs/prettierrc",
+  "dependencies": {
+    "@milkdown/kit": "^7.19.0",
+    "prismjs": "^1.30.0"
+  },
+  "devDependencies": {
+    "@skaldapp/configs": "^1.2.75",
+    "@types/node": "^25.5.0",
+    "@types/prismjs": "^1.26.6",
+    "eslint": "^10.1.0"
+  }
+}
