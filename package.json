@@ -32,7 +32,7 @@
   },
   "prettier": "@skaldapp/configs/prettierrc",
   "dependencies": {
-    "@milkdown/kit": "^7.19.0",
+    "@milkdown/kit": "^7.19.1",
     "prismjs": "^1.30.0"
   },
   "devDependencies": {
