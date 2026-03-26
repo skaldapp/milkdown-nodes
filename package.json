@@ -36,7 +36,7 @@
     "prismjs": "^1.30.0"
   },
   "devDependencies": {
-    "@skaldapp/configs": "^1.2.78",
+    "@skaldapp/configs": "^1.2.79",
     "@types/node": "^25.5.0",
     "@types/prismjs": "^1.26.6",
     "eslint": "^10.1.0"
