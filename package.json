@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.schemastore.org/package",
   "name": "@skaldapp/milkdown-nodes",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "Custom nodes for Milkdown editor with enhanced HTML schema and syntax-highlighted code blocks",
   "keywords": [
     "milkdown",
